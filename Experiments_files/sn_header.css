@@ -1,0 +1,129 @@
+/* Springer Nature Global Header */
+
+.SN_header {
+	
+}
+
+.SN_header__productTitle {
+	display: inline-block;
+	border-left: 1px solid lightgrey;
+	padding-left: 12px;
+	margin: 20px 0 20px 7px;
+}
+
+.SN_header--center {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+
+.SN_header__search {	
+	background: #3180be;	
+}
+
+.SN_header__search--L {
+	padding: 35px 10px 35px 0;
+}
+
+.SN_header__searchInner {
+	max-width: 564px;
+    height: 52px;	
+    background-color: #fff;
+    border: 0;
+    position: relative;
+    height: 37px
+}
+
+@media screen and (min-width: 700px) {
+    .SN_header__searchInner {
+        max-width: none
+    }
+}
+@media screen and (min-width: 1025px) {
+    .SN_header__searchInner {
+        max-width: 564px;
+        height: 52px
+    }
+}
+
+.SN_header__searchText {
+    font-size: 15px;
+    font-size: 1.5rem;
+    font-family: Lora, Palatino, Times, Times New Roman, serif;
+    color: #868686;
+    height: 37px;
+    padding: 0 50px 0 10px;
+    width: 87%;
+    border: 0;
+    box-shadow: none;
+    background-color: transparent
+    border: none;
+}
+@media screen and (min-width: 700px) {
+    .SN_header__searchText {
+        max-width: none
+    }
+}
+@media screen and (min-width: 1025px) {
+    .SN_header__searchText {
+        width: 500px;
+        height: 50px;
+        padding: 3px 54px 0 10px;
+        font-size: 20px;
+        font-size: 2rem
+    }
+}
+.SN_header__searchText:focus {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+    outline: 0
+}
+.SN_header__searchText:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #fff inset
+}
+.SN_header__searchSubmit {
+    background: url(icon-search-25x25-white.svg) center no-repeat #069;
+    border: 1px solid #0176c3;
+    color: transparent;
+    font-size: 16px;
+    font-size: 1.6rem;
+    height: 37px;
+    width: 37px;
+    padding: 0;
+    position: absolute;
+    right: -10px;
+    top: 0;
+    background-size: 18px auto
+}
+@media screen and (min-width: 1025px) {
+    .SN_header__searchSubmit{
+        right: 4px;
+        top: 4px;
+        height: 44px;
+        width: 44px
+    }
+}
+.SN_header__searchSubmit:active,
+.SN_header__searchSubmit:focus,
+.SN_header__searchSubmit:hover {
+    border-color: #02548a
+}
+
+
+
+
+/* MISC */
+fieldset {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+.visually-hidden {
+	width: 1px;
+    height: 1px;
+    position: absolute !important;
+    clip: rect(1px, 1px, 1px, 1px);
+}
