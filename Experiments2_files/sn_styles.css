@@ -1,4 +1,4 @@
-/* Springer Nature Global Header */
+/* Springer Nature Global Styles */
 
 @font-face {
   font-family: "Daytona W01 Light";
@@ -11,15 +11,17 @@
   src: url("57eee64b-1b2b-49d5-a0fd-58dd7438d251.eot?#iefix") format("eot"), url("eaec63df-29cb-4036-b52c-0128885fa6d8.woff2") format("woff2"), url("81a7ca0e-9ecd-494c-b5a8-8a71dee13b8d.woff") format("woff"), url("aad4b4c7-49b1-4089-841c-64ffed447731.ttf") format("truetype"), url("f748fe0a-1ac1-4a1d-b882-0023fc61c385.svg#f748fe0a-1ac1-4a1d-b882-0023fc61c385") format("svg");
 }
 
-.SN_header {
-	
-}
+/*SN Header */
 
 .SN_header__productTitle {
+    font-family: "Daytona W01 Light", Verdana, "Helvetica Neue", Arial, Helvetica, sans-serif;
 	display: inline-block;
+    font-size: 22px;
+    font-size: 2.2rem;
 	border-left: 1px solid lightgrey;
 	padding-left: 12px;
 	margin: 20px 0 20px 7px;
+    color: #777;
 }
 
 .SN_header--center {
@@ -142,6 +144,51 @@
     border-color: #02548a
 }
 
+/*SN Footer */
+
+.footer {
+    color: #fff;
+    background: #183642;
+    font-family: "Daytona W01 Regular", sans-serif;
+}
+
+.footer h2 {
+    font-size: 16px;
+    font-size: 1.6rem;
+    padding-top: 2em;
+}
+
+.footer a {
+    font-weight: normal;
+    color: #999;
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 2;
+    color: #8faec1;
+}
+
+.footer--center {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer__nav {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: flex-start;
+   padding-bottom: 2em
+}
+
+.footer__col {
+    margin-right: 12em;
+}
+
+.footer__branding {
+    border-top: 1px solid #486a7e;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
 
 /* MISC */
 fieldset {
